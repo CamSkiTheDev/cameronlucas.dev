@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 import "normalize.css";
 import LandingPage from "./pages/landing";
 import GoogleFontLoader from "react-google-font-loader";
+import ProjectPage from "./pages/projects";
 
 const GlobalStyles = createGlobalStyle`
 @font-face {
@@ -66,6 +67,7 @@ const App = () => {
       <GlobalStyles />
       <Switch>
         <Route path="/" exact component={LandingPage} />
+        <Route path="/projects" component={ProjectPage} />
       </Switch>
     </>
   );
