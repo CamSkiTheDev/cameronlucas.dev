@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
       {children}
       <Button className="source-code-btn">
         <i className="fab fa-github" />
-        <span>View Source Code.</span>
+        <span>View Source Code</span>
       </Button>
     </Main>
   );
