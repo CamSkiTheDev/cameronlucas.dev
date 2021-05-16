@@ -22,7 +22,11 @@ const Layout = ({ children }) => {
     <Main>
       <Navbar />
       {children}
-      <Button className="source-code-btn">
+      <Button
+        className="source-code-btn"
+        to={{ pathname: "https://github.com/CamSkiTheDev/cameronlucas.dev" }}
+        target="_blank"
+      >
         <i className="fab fa-github" />
         <span>View Source Code</span>
       </Button>
