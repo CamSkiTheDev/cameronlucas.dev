@@ -64,6 +64,7 @@ const Main = styled.main`
       color: #fff;
       text-align: center;
       font-size: 2.125em;
+      font-family: "NTB";
     }
     .skills-container {
       padding: 0.625em 0;
@@ -91,19 +92,38 @@ const LandingPage = () => {
           </div>
           <TypeWriter />
           <div className="button-container">
-            <Button buttonBGColor="#2867B2">
+            <Button
+              to={{
+                pathname:
+                  "https://www.linkedin.com/in/cameron-lucas-68a27217a/",
+              }}
+              buttonBGColor="#2867B2"
+              target="_blank"
+            >
               <i className="fab fa-linkedin" />
               <span>Linkedin</span>
             </Button>
-            <Button buttonBGColor="#1DA1F2">
+            <Button
+              to={{ pathname: "https://twitter.com/SiteitSolutions" }}
+              buttonBGColor="#1DA1F2"
+              target="_blank"
+            >
               <i className="fab fa-twitter" />
               <span>Twitter</span>
             </Button>
-            <Button buttonBGColor="#FF0000">
+            <Button
+              to={{ pathname: "https://youtube.com/c/thelifeofadev" }}
+              buttonBGColor="#FF0000"
+              target="_blank"
+            >
               <i className="fab fa-youtube" />
               <span>Youtube</span>
             </Button>
-            <Button buttonBGColor="#333">
+            <Button
+              to={{ pathname: "https://github.com/CamSkiTheDev" }}
+              buttonBGColor="#333"
+              target="_blank"
+            >
               <i className="fab fa-github" />
               <span>Github</span>
             </Button>
