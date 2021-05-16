@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useHistory } from "react-router-dom";
 
 const Navigation = styled.nav`
   width: 100%;
@@ -38,6 +39,8 @@ const Navigation = styled.nav`
 `;
 
 const Navbar = () => {
+  const history = useHistory();
+
   return (
     <Navigation>
       <div className="wrapper">
@@ -48,11 +51,11 @@ const Navbar = () => {
           draggable="false"
         />
         <ul className="navbar-btn-list">
-          <li>
+          <li onClick={() => history.push("/")}>
             <i className="fad fa-home" />
             <span>Home</span>
           </li>
-          <li>
+          <li onClick={() => history.push("/projects")}>
             <i className="fad fa-file-signature" />
             <span>Projects</span>
           </li>
