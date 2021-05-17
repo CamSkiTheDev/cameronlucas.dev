@@ -6,6 +6,7 @@ const H1 = styled.h1`
   margin: 0 auto;
   color: #fff;
   font-family: "NTB";
+  text-align: center;
 `;
 
 const TypeWriter = () => {
