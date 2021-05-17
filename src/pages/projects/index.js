@@ -49,7 +49,7 @@ const ProjectPage = () => {
             buttons={[
               {
                 buttonBGColor: "rgba(var(--JS-Yellow))",
-                style: { margin: "0", padding: "20px 0", color: "#333" },
+                style: { margin: "0", padding: "1.25em 0", color: "#333" },
                 to: { pathname: "https://enrouteinc.com/" },
                 target: "_blank",
                 text: "Visit Enroute Logistics",
@@ -64,7 +64,7 @@ const ProjectPage = () => {
             buttons={[
               {
                 buttonBGColor: "rgba(var(--JS-Yellow))",
-                style: { margin: "0", padding: "20px 0", color: "#333" },
+                style: { margin: "0", padding: "1.25em 0", color: "#333" },
                 to: { pathname: "https://myartexperienceco.com/" },
                 target: "_blank",
                 text: "Visit My Art Experience",
@@ -79,7 +79,7 @@ const ProjectPage = () => {
             buttons={[
               {
                 buttonBGColor: "rgba(var(--JS-Yellow))",
-                style: { margin: "0", padding: "20px 0", color: "#333" },
+                style: { margin: "0", padding: "1.25em 0", color: "#333" },
                 to: {
                   pathname:
                     "https://www.figma.com/file/PvaUZZRRzhyWkNIbeckqV8/SUDS-and-SCRUBS?node-id=0%3A1",
@@ -108,7 +108,7 @@ const ProjectPage = () => {
             buttons={[
               {
                 buttonBGColor: "#333",
-                style: { margin: "0", padding: "20px 0", color: "#fff" },
+                style: { margin: "0", padding: "1.25em 0", color: "#fff" },
                 to: {
                   pathname:
                     "https://github.com/CamSkiTheDev/Rick-and-Morty-IGST",
@@ -118,7 +118,7 @@ const ProjectPage = () => {
               },
               {
                 buttonBGColor: "rgb(var(--JS-Yellow))",
-                style: { margin: "0", padding: "20px 0", color: "#333" },
+                style: { margin: "0", padding: "1.25em 0", color: "#333" },
                 to: {
                   pathname: "https://rick-and-morty-igst.vercel.app/",
                 },
@@ -135,7 +135,7 @@ const ProjectPage = () => {
             buttons={[
               {
                 buttonBGColor: "#333",
-                style: { margin: "0", padding: "20px 0", color: "#fff" },
+                style: { margin: "0", padding: "1.25em 0", color: "#fff" },
                 to: {
                   pathname: "https://github.com/CamSkiTheDev/Stocky",
                 },
@@ -144,7 +144,7 @@ const ProjectPage = () => {
               },
               {
                 buttonBGColor: "rgb(var(--JS-Yellow))",
-                style: { margin: "0", padding: "20px 0", color: "#333" },
+                style: { margin: "0", padding: "1.25em 0", color: "#333" },
                 to: {
                   pathname: "https://stocky-imt.herokuapp.com/auth/login",
                 },

@@ -19,7 +19,7 @@ const Card = styled.div`
     border-top-right-radius: 0.3125em;
   }
   .project-info {
-    padding: 20px 10px;
+    padding: 1.25em 0.625em;
     flex-grow: 1;
     p {
       font-weight: lighter;
