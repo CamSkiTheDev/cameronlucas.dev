@@ -56,10 +56,11 @@ const Card = styled.div`
     }
   }
   p {
-    margin: 0;
+    margin: 0.625em 0 0;
     padding: 0;
     font-weight: 300;
     font-size: 0.75em;
+    line-height: 125%;
   }
 `;
 
