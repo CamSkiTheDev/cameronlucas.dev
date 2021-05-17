@@ -15,6 +15,8 @@ const Main = styled.main`
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     .img-container {
       margin: 10vh auto;
       width: 16.625em;
@@ -43,6 +45,8 @@ const Main = styled.main`
     .button-container {
       margin: 1.25em auto;
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .learn-more {
@@ -59,6 +63,10 @@ const Main = styled.main`
   }
 
   .skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     h2 {
       margin: 2.5em auto 0.625em;
       color: #fff;
@@ -67,11 +75,13 @@ const Main = styled.main`
       font-family: "NTB";
     }
     .skills-container {
+      margin: 0 auto;
       padding: 0.625em 0;
       width: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      align-items: center;
     }
   }
 
