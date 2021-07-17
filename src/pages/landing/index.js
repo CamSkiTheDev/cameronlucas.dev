@@ -160,7 +160,7 @@ const LandingPage = () => {
               skillLevel="Jedi Knight"
               skillDescription="Node.js is an open-source, cross-platform, back-end JavaScript runtime environment."
             />
-            {/* <SkillCard
+            <SkillCard
               iconClass="fab fa-python"
               iconColor="#306998"
               skillTitle="Python"
@@ -173,7 +173,7 @@ const LandingPage = () => {
               skillTitle="Ruby"
               skillLevel="Padawan"
               skillDescription="Ruby is an interpreted, high-level, general-purpose programming language."
-            /> */}
+            />
             <SkillCard
               iconClass="icon-mongodb"
               iconColor="#4DB33D"
