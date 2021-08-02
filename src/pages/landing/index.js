@@ -138,7 +138,7 @@ const LandingPage = () => {
               <span>Linkedin</span>
             </Button>
             <Button
-              to={{ pathname: "https://twitter.com/SiteitSolutions" }}
+              to={{ pathname: "https://twitter.com/thelifeofadev" }}
               buttonBGColor="#1DA1F2"
               target="_blank"
             >
