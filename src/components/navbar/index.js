@@ -81,6 +81,16 @@ const Navbar = () => {
             <span>Projects</span>
           </li>
           <li>
+            <a
+              href="https://docs.google.com/document/d/1TX1ExJyCKd7nVu0Mjtlwnrxz9LxLUToHGq5K4zjTlUw/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fad fa-file" />
+              <span>Resume</span>
+            </a>
+          </li>
+          <li>
             <a href="mailto:cameronlucasaim@gmail.com" rel="noreffer">
               <i className="fab fa-connectdevelop" />
               <span>Let's Connect</span>
