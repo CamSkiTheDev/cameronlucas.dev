@@ -138,6 +138,14 @@ const LandingPage = () => {
               <span>Linkedin</span>
             </Button>
             <Button
+              to={{ pathname: "https://dev.to/camskithedev" }}
+              buttonBGColor="#333"
+              target="_blank"
+            >
+              <i className="fab fa-dev" />
+              <span>Blog</span>
+            </Button>
+            <Button
               to={{ pathname: "https://twitter.com/thelifeofadev" }}
               buttonBGColor="#1DA1F2"
               target="_blank"
