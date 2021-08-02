@@ -34,6 +34,10 @@ const Navigation = styled.nav`
         justify-content: flex-end;
         align-items: center;
         cursor: pointer;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
         i {
           margin: 0 0.3125em;
         }
@@ -77,8 +81,10 @@ const Navbar = () => {
             <span>Projects</span>
           </li>
           <li>
-            <i className="fab fa-connectdevelop" />
-            <span>Let's Connect</span>
+            <a href="mailto:cameronlucasaim@gmail.com" rel="noreffer">
+              <i className="fab fa-connectdevelop" />
+              <span>Let's Connect</span>
+            </a>
           </li>
         </ul>
       </div>
