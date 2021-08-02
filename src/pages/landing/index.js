@@ -85,6 +85,30 @@ const Main = styled.main`
     }
   }
 
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      margin: 2.5em auto 0.625em;
+      color: #fff;
+      text-align: center;
+      font-size: 2.125em;
+      font-family: "NTB";
+    }
+    p {
+      padding: 0 0.625em;
+      color: #fff;
+      font-weight: 500;
+      line-height: 175%;
+      letter-spacing: 0.025em;
+      a {
+        color: #fff;
+      }
+    }
+  }
+
   @keyframes spin {
     100% {
       transform: rotate(360deg);
@@ -142,6 +166,34 @@ const LandingPage = () => {
             <span>Learn More About Me</span>
             <i className="fas fa-chevron-down" />
           </div>
+        </section>
+        <section className="about-section">
+          <h2>About Me</h2>
+          <p>
+            Hello everyone, my name is Cameron Lucas I am a Full-Stack Developer
+            from Denver, Colorado. I have a passion for business, people, and
+            technology, with a background in logistics, and management.
+          </p>
+          <p>
+            With my burning desire to learn new skills and strengthen my
+            interpersonal skills, I have attracted the attention and been
+            fortunate to learn from mentors in the tech and business industries.
+            While in the software engineering industry I have learned and uses a
+            variety of Front-end and Backend Technologies. Some of these include
+            React, React-Native, NodeJS, ExpressJS, Ruby on Rails, MongoDB,
+            PostgreSQL, and more.
+          </p>
+          <p>
+            With interests ranging from Software Engineering and Cyber Security
+            to BMX and WRC. I'm always interested in having a conversation.
+            Message me let's talk and get some coffee.
+            <br />
+            <br />
+            Email:{" "}
+            <a href="mailto:cameronlucasaim@gmail.com">
+              cameronlucasaim@gmail.com
+            </a>
+          </p>
         </section>
         <section className="skills-section">
           <h2>Skills</h2>
