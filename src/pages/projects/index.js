@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Layout from "../../components/layout";
-import Button from "../../components/button";
 import ProjectCard from "../../components/projectCard";
 
 const Main = styled.main`
@@ -44,7 +43,7 @@ const ProjectPage = () => {
               "React (Front-end)",
               "NodeJS API (Strapi.io)",
               "MongoDB(noSQL) Database",
-              "CMS (Strapi.io",
+              "CMS (Strapi.io)",
             ]}
             buttons={[
               {
@@ -91,7 +90,7 @@ const ProjectPage = () => {
           />
         </section>
         <h1 className="section-title">
-          Personal <em>Projects</em>
+          Personal/School <em>Projects</em>
         </h1>
         <section className="projects-section">
           <ProjectCard
@@ -147,6 +146,32 @@ const ProjectPage = () => {
                 style: { margin: "0", padding: "1.25em 0", color: "#333" },
                 to: {
                   pathname: "https://stocky-imt.herokuapp.com/auth/login",
+                },
+                target: "_blank",
+                text: "Visit Live Project",
+              },
+            ]}
+          />
+          <ProjectCard
+            imgURL="https://i.imgur.com/Jv4Eoq4.png"
+            title="Safe Exchange"
+            description="Safe Exchange is a co-parenting application made to aid in the exchange process and ensure the safety of the child, and everyone involved in an exchange."
+            stack={["React", "Express", "NodeJS", "MongoDB", "Bulma CSS"]}
+            buttons={[
+              {
+                buttonBGColor: "#333",
+                style: { margin: "0", padding: "1.25em 0", color: "#fff" },
+                to: {
+                  pathname: "https://github.com/CamSkiTheDev/safe-exchange",
+                },
+                target: "_blank",
+                text: "Visit Project GitHub",
+              },
+              {
+                buttonBGColor: "rgb(var(--JS-Yellow))",
+                style: { margin: "0", padding: "1.25em 0", color: "#333" },
+                to: {
+                  pathname: "https://practical-ardinghelli-eaf989.netlify.app/",
                 },
                 target: "_blank",
                 text: "Visit Live Project",
